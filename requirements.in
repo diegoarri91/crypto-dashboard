@@ -1,2 +1,4 @@
 plotly
+python-binance>=1,<2
 streamlit
+toolz>=0.12.1,<1
