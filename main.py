@@ -14,7 +14,7 @@ from acquire import (
 
 REFRESH_RATE = 3
 MOCK = True
-count = st_autorefresh(interval=60 * 1000, limit=None, key="autorefresh")
+count = st_autorefresh(interval=60 * 1000, limit=None, key="autorefresh")  # attempt refresh every minute
 
 
 def get_last_historical_klines_with_mock(
